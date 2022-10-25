@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.dark{
+    background-color: #202C36;
+}
+
+.container{
+    width: 1400px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+
+.site__header{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+.header__wrapper{
+    padding: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mode{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #111517;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.heading{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #111517;
+}
+
+.main__wrapper > input{
+    width: 480px;
+    margin-top: 90px;
+    padding: 18px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+    border-radius: 5px;
+}
+
+.countries__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.information{
+    padding: 24px;
+}
+
+.name__country{
+    padding: 24px 0px 16px 0px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    color: #111517;
+}
+
+.item{
+    margin-right: 10px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+/* dark-mode */
+
+
+
